@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block main %}
+
+
+<div id ="profile"> <h2> Profile </h2>
+ </div>
+    <div id = "image"> <img src="{{url_for('static', filename = 'profile.jpg' )}}"></img></div>
+        <div id = "BIO"> 
+        <div id= "name"> <h1> Akinyele Thompson </h1>   </div>
+        <div id="date"> Todays date is {{ date }}  </div>
+        <div id="info">  Username: Akinyele</br>ID Number: 620070942  </br>Age: 22</br>Gender: Male   </div>
+        <div id="about-me">   I am a Computer Science Student </div>
+    </div>
+</div>
+
+{% endblock %}

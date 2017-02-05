@@ -1,3 +1,64 @@
 body {
     padding-top: 50px;
 }
+
+#image{
+    float: left;
+    position: relative;
+    border-style: solid;
+    border-width: 1px;
+    
+}
+
+#BIO{
+    position: relative;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-radius: 5px;
+    float: left;
+    margin: 10px;
+}
+
+#profile{
+    border-bottom: solid;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 14px;
+    
+}
+#name{
+    background-color: #ececec;
+    font-weight: bold;
+    border-bottom:solid;
+    padding-left: 20px;
+    padding-right: 160px;
+    margin-top: -20px;
+    border-color: #d8d4d4;
+    border-width: 1.1px;
+    
+    
+}
+
+#date , #info{
+    border-bottom:solid;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 13px;
+    border-color: #d8d4d4;
+    border-width: 1.1px;
+}
+
+img{
+    border-bottom:solid;
+    padding: 10px;
+    border-color: #d8d4d4;
+    border-width: 1.1px;
+}
+
+#about-me{
+   padding: 10px; 
+   border-color: #d8d4d4;
+    border-width: 1.1px;
+}
+
+
